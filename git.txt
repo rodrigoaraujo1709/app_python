@@ -1,20 +1,14 @@
-a = 10
-b = 5
-soma = a + b
-subtracao = a - b
-multiplicacao = a * b
-divisao = a / b
-resto = a % b
+git config --global user.name ""
 
-print(soma)
-print(subtracao)
-print(multiplicacao)
-print(divisao)
-print(resto)
+git config --global user.email ""
 
+git config --global user.name
 
+git config --global user.email
 
-ls
+git config --list
+
+ls -la
 
 git status - como está o repositorio
 
@@ -55,6 +49,25 @@ mixed volta os arquivos pra antes do staged, volta pro modified
 hard mata tudo do commit
 
 
+criando chave ssh
 
+ssh-keygen -t rsa -b 4096 -C "rodrigoaraujo1709@gmail.com"
+
+/c/Users/rodri/.ssh/id_rsa
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDiu1rDtYh6BJSU8VTWtAqSwCwZ8zo6PrqkUdS47drOB+4Zfy05QcKzDlqAnhNsYe1Dq0hPdu3ikhSfDrfJAMhnJOpzRgiCVXVoUk0ceymXwEV4RzYDphzOQ2/tIQx9lIkPWQhVNndT3+HQ1Y3VWsR8qdGJhi0nXR8LEbu0vdyQi/QKN6/hwv/wTCxmG5Zk1+0nEbuph3vdr+ybS2urbOEwnYxbv/k72xAb6zNDri1jSHv3fnAKpA0/BZD7mYnuGl6qIi7ORjceCActJlAzLTGDrJJfD9vtbjXG8VjdPo//PYf4ZTCzdt5ixWBafwsZ8z8VFrn3+933wWtI4qHaC5qDNqjmAxZUw6IIbWoyrxH8KeN8m0rQKIvD6z5AvgMZjtqlUQhs2unwe8a9bfHCM5/ZlpoZpEAvPRCax4ijI6jngiVDC20BjU6ChchjNjPmVf+7hdCLbFdQLNQIi9/mY2N7sDcNsLmvPzxPrZz+mihA7ZMV2FcUOKwCfH/tC3eQ5saIsaJ/HoFTCmEqWAEDyYr+PyFm9NbzrYZP+XMmLYe4ERpTx85f8UgZd8FEOCUWvkox9huXk68D3AVdFRo+erj7Qo8RtN6qnWxr3LeES2NSh+x9mQnezo+oSvDsapfPBUTeEKMgcxB7CXGuYFg72OwZDDigzjTlVXJCfdESORfJLw== rodrigoaraujo1709@gmail.com
+
+
+
+
+git remote add origin https://github.com/rodrigoaraujo1709/app_python.git
+git push -u origin master
+
+
+SUBIR MODIFICA;ÓES PARA O GITHUB
+add
+commit
+
+git push origin master
 
 
