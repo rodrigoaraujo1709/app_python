@@ -1,0 +1,60 @@
+a = 10
+b = 5
+soma = a + b
+subtracao = a - b
+multiplicacao = a * b
+divisao = a / b
+resto = a % b
+
+print(soma)
+print(subtracao)
+print(multiplicacao)
+print(divisao)
+print(resto)
+
+
+
+ls
+
+git status - como está o repositorio
+
+vim Readme.md
+
+git add Readme.md
+
+git status
+
+caso edite o arquivo tem que dar um git add Readme.md
+
+git commit -am "adicionei um Readme.md"
+
+git log --decorate
+
+git log --author="Rodrigo"
+
+git shortlog (commits, autores e alterações)
+
+git shortlog -sn (commits e autores)
+
+git log --graph
+
+git show 'HASh'
+
+git diff (ver modificações antes de commitar)
+
+git diff --name-only (ver apenas nome do arquivo que foi modificado)
+
+git checkout (desfas modificações pra o estado commitado anterior, caso não tenha dado o add ainda)
+
+git reset HEAD Readme.md (volta as modificações após ao add mantendo as diffs, mas antes do add!)
+
+git reset --soft --mixed --hard
+
+soft pega as modificações e volta pro staged
+mixed volta os arquivos pra antes do staged, volta pro modified
+hard mata tudo do commit
+
+
+
+
+
